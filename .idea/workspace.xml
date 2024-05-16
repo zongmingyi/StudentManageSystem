@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f7f6ce-1f2b-483f-b18b-40d5b6a027f0" name="Changes" comment="删除信息">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/Entrance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/account/teacher" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/account/teacher" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Entrance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="manageSystem.Entrance" />
+      <module name="StudentManageSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manageSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Entrance" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +87,7 @@
       <workItem from="1715751266928" duration="867000" />
       <workItem from="1715782792896" duration="3336000" />
       <workItem from="1715828241620" duration="8147000" />
+      <workItem from="1715856028402" duration="8528000" />
     </task>
     <task id="LOCAL-00001" summary="查询 注册 登录">
       <created>1715845125830</created>
@@ -111,5 +139,21 @@
     <MESSAGE value="添加信息" />
     <MESSAGE value="删除信息" />
     <option name="LAST_COMMIT_MESSAGE" value="删除信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

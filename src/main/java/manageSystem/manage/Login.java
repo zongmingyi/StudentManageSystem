@@ -15,9 +15,9 @@ import java.util.Objects;
 public class Login implements Serializable {
     private static final long serialVersionUID = 8733831155889904841L;
 
-    public Boolean login(String account, String password, UserEnum user) {
+    public Boolean login(String account, String password, int category) {
         List<Account> accountList = new ArrayList<>();
-        UserEnum role = UserEnum.getRole(user.getCategory());
+        UserEnum role = UserEnum.getRole(category);
         if (Objects.isNull(role)){
             System.out.println("登录身份不合法");
             return false;
@@ -25,10 +25,10 @@ public class Login implements Serializable {
         String file;
         switch (role){
             case TEACHER:
-                file = "account/teacher";
+                file = "src/main/resources/account/teacher";
                 break;
             case STUDENT:
-                file = "account/student";
+                file = "src/main/resources/account/student";
                 break;
             default:
                 file = "";

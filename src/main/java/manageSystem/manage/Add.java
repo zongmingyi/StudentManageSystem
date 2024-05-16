@@ -11,7 +11,7 @@ public class Add implements Serializable {
     private static final long serialVersionUID = -3536074296088134682L;
 
     public void add(Score score){
-        String file = "information/scores";
+        String file = "src/main/resources/information/scores";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
             writer.write(score.toString());
             writer.newLine();

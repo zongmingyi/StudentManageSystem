@@ -26,9 +26,11 @@ public class Register implements Serializable {
         String file;
         switch(userRole){
             case TEACHER:
-                file = "account/teacher";
+                file = "src/main/resources/account/teacher";
+                break;
             case STUDENT:
-                file = "account/teacher";
+                file = "src/main/resources/account/teacher.txt";
+                break;
             default:
                 file = "";
         }

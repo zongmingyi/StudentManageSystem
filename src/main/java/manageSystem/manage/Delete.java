@@ -10,7 +10,7 @@ public class Delete implements Serializable {
     private static final long serialVersionUID = -8972359586288947347L;
 
     public void delete(String id) {
-        String file = "information/scores";
+        String file = "src/main/resources/information/scores";
         List<Score> context = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;

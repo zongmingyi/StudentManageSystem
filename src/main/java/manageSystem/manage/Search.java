@@ -15,7 +15,7 @@ public class Search implements Serializable {
     private static final long serialVersionUID = -7456895357464584438L;
 
     public Score search(String ID, int category) {
-        String file = "information/scores";
+        String file = "src/main/resources/information/scores";
         List<Score> scoreList = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;

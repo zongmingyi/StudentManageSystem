@@ -11,12 +11,12 @@ import java.util.stream.Collectors;
 public class Update implements Serializable {
     private static final long serialVersionUID = 5352208951938813593L;
 
-    public void update(Score score){
-        String file = "information/scores";
+    public void update(Score score) {
+        String file = "src/main/resources/information/scores";
         List<Score> context = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
-            while((line = reader.readLine()) != null){
+            while ((line = reader.readLine()) != null) {
                 String[] split = line.split(" ");
                 Score scores = new Score(split[0], split[1], split[2], split[3], split[4]);
                 context.add(scores);
@@ -31,10 +31,6 @@ public class Update implements Serializable {
                     score1.setChinese(score.getChinese());
                 }
 
-                if (Objects.nonNull(score.getTotalScore())) {
-                    score1.setTotalScore(score.getTotalScore());
-                }
-
                 if (Objects.nonNull(score.getEnglish())) {
                     score1.setEnglish(score.getEnglish());
                 }
@@ -43,6 +39,9 @@ public class Update implements Serializable {
                     score1.setMath(score.getMath());
                 }
             }
+            Integer total = Integer.parseInt(score1.getEnglish()) + Integer.parseInt(score1.getChinese())
+                    + Integer.parseInt(score1.getMath());
+            score1.setTotalScore(String.valueOf(total));
             return score1;
         }).collect(Collectors.toList());
 
