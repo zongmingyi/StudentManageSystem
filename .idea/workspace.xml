@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f7f6ce-1f2b-483f-b18b-40d5b6a027f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/enums/CourseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/information/scores" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/entity/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/enums/UserEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/enums/UserEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Register.java" afterDir="false" />
+    <list default="true" id="54f7f6ce-1f2b-483f-b18b-40d5b6a027f0" name="Changes" comment="查询 注册 登录">
+      <change afterPath="$PROJECT_DIR$/src/main/java/manageSystem/manage/Add.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,8 +58,16 @@
       <workItem from="1715743489758" duration="3357000" />
       <workItem from="1715751266928" duration="867000" />
       <workItem from="1715782792896" duration="3336000" />
-      <workItem from="1715828241620" duration="4063000" />
+      <workItem from="1715828241620" duration="4565000" />
     </task>
+    <task id="LOCAL-00001" summary="查询 注册 登录">
+      <created>1715845125830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715845125830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="查询 注册 登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询 注册 登录" />
   </component>
 </project>
