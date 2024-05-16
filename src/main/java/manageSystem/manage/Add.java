@@ -12,7 +12,7 @@ public class Add implements Serializable {
 
     public void add(Score score){
         String file = "information/scores";
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
             writer.write(score.toString());
             writer.newLine();
             writer.flush();

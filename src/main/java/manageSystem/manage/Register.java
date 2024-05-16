@@ -33,7 +33,7 @@ public class Register implements Serializable {
                 file = "";
         }
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) {
             writer.write(account + " " + password);
             writer.newLine();
             writer.flush();
